@@ -46,7 +46,7 @@
             <maxHistory>30</maxHistory>
         </rollingPolicy>
 
-        <!-- 配置临界值过滤器 作用:过滤掉低于指定临界值的日志，当日志级别等于或高于临界值时过滤器返回NEUTRAL，当日志级别低于临界值时，日志会被拒绝 此处配置为INFO 即过滤掉日志级别小于INFO的日志信息 -->
+        <!--  配置临界值过滤器 作用:过滤掉低于指定临界值的日志，当日志级别等于或高于临界值时过滤器返回NEUTRAL，当日志级别低于临界值时，日志会被拒绝 此处配置为INFO 即过滤掉日志级别小于INFO的日志信息 -->
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>INFO</level>
         </filter>
