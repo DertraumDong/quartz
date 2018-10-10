@@ -9,7 +9,7 @@
     <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
 
     <!--
-        appender是<configuration>的子节点，是负责写日志的组件
+        appender 是<configuration>的子节点，是负责写日志的组件
         两个必要属性name和class:name指定appender名称，class指定appender的全限定名
         定义控制台appender 作用:把日志输出到控制台 class="ch.qos.logback.core.ConsoleAppender"
     -->
